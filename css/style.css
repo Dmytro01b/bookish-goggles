@@ -824,6 +824,13 @@ h6 {
     padding-bottom: 11.25rem
   }
 }
+@media (max-width:40em) {
+  .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px
+  }
+}
 @media (max-width:25em) {
   .price {
     background: url(../img/price/image.svg) 0 45px no-repeat
@@ -978,11 +985,6 @@ h6 {
 @media (max-width:37.5em) {
   .footer__top {
     flex-direction: column;
-    gap: 30px
-  }
-  .footer__bottom {
-    flex-direction: column;
-    align-items: center;
     gap: 30px
   }
 }
